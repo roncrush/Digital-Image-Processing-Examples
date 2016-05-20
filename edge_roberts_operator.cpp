@@ -1,12 +1,3 @@
-// Course: CS4491
-// Student name: Syed Hassaan Ali
-// Student ID: 000675546
-// Assignment #: #4
-// Due Date: 10/05/2015
-// Signature: ________________________
-//			  (The signature means that the work is your own, not from somewhere else)
-// Score: ______________
-
 #include <iostream>
 #include <string>
 #include <vector>
@@ -63,7 +54,7 @@ void roberts_operator(Mat input)
 
 void main()
 {
-	input_image = imread("C:\\Users\\Hassaan\\Pictures\\car.jpg", CV_LOAD_IMAGE_GRAYSCALE);
+	input_image = imread("", CV_LOAD_IMAGE_GRAYSCALE);
 
 	roberts_operator(input_image);
 

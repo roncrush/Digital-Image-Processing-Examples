@@ -1,12 +1,3 @@
-// Course: CS4491
-// Student name: Syed Hassaan Ali
-// Student ID: 000675546
-// Assignment #: Test 1
-// Due Date: 10/05/2015
-// Signature: ________________________
-//			  (The signature means that the work is your own, not from somewhere else)
-// Score: ______________
-
 #include <iostream>
 #include <string>
 #include <vector>
@@ -157,7 +148,7 @@ void on_trackbar(int, void *)
 
 void main()
 {
-	input_image = imread("C:\\Users\\Hassaan\\Pictures\\Noise.png");
+	input_image = imread("");
 
 	imshow("Noise Image", input_image.clone());
 	createTrackbar("Sigma", "Noise Image", &noise_level, 256, on_trackbar);

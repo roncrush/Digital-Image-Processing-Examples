@@ -1,12 +1,3 @@
-// Course: CS4491
-// Student name: Syed Hassaan Ali
-// Student ID: 000675546
-// Assignment #: #2
-// Due Date: 09/14/2015
-// Signature: ________________________
-//			  (The signature means that the work is your own, not from somewhere else)
-// Score: ______________
-
 #include <iostream>
 #include <string>
 
@@ -137,7 +128,7 @@ void on_trackbar(int, void *)
 
 void main()
 {
-	input_image = imread("C:\\Users\\Hassaan\\Pictures\\LowContrast.jpg", CV_LOAD_IMAGE_GRAYSCALE);
+	input_image = imread("", CV_LOAD_IMAGE_GRAYSCALE);
 	total_pixels = input_image.cols * input_image.rows;
 
 	calc_histogram(input_image.clone());

@@ -1,12 +1,3 @@
-// Course: CS4491
-// Student name: Syed Hassaan Ali
-// Student ID: 000675546
-// Assignment #: #6
-// Due Date: 11/30/2015
-// Signature: ________________________
-//			  (The signature means that the work is your own, not from somewhere else)
-// Score: ______________
-
 #include <iostream>
 #include <string>
 #include <vector>
@@ -268,7 +259,7 @@ void on_trackbar(int, void*)
 
 void main()
 {
-	input_image = imread("C:\\Users\\Hassaan\\Pictures\\Lenna.png");
+	input_image = imread("");
 	imshow("Input", input_image);
 
 	srand(time(0));
